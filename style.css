@@ -1,0 +1,114 @@
+/* style.css */
+body {
+ font-family: Overpass;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+	color: #404042;
+  	opacity: .7;
+}
+
+img {
+	height: 170px;
+	width: 180px;
+	border-radius: 5%;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+#subtitle-size{
+	font-size: 25px;
+	color: lightgrey;
+	font-family: 'Poiret One', cursive;
+
+}
+
+#heading-size{
+	color: white;
+	font-size: 25px;
+}
+
+#campuses{
+	margin-top: 20px;
+	margin-left: -50px;
+	font-size: 25px;
+	font-style: bold;
+}
+
+#footer-color{
+	color: white;
+}
+
+.cards{
+	margin-top: -5px;
+	margin-bottom: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px
+}
+
+.card-white{
+	box-shadow: 0 0 8px 2px #ccc; /* with blur shadow*/
+	padding-top: 25px;
+	text-align: center;
+	border-radius: 5%;
+}
+
+.banner	{
+	background-image: url("images/background.jpg");
+	padding: 130px;
+	text-align: center;
+	
+	background-position: center;
+
+}
+
+.button-blue{
+	margin-top: 30px;
+	margin-left: 625px;
+	line-height: 60px;
+	text-align: center;
+	
+	width: 180px;
+	height: 60px;
+	background-color: #1A48E3;
+	border-radius: 4%;
+	transition: .3s;
+
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+
+}
+
+.footer{
+	text-align: center;
+
+	margin-top: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color:  #343a40;
+}
+
+
+
+
+
+
+
